@@ -56,7 +56,7 @@ int main(void)
 	DMA_Configuration();   //dma配置
 	NB_ReadBasicOPt();
 	PROTOCOL_ReadBasicOPt();
-  GPIO_ON();//引脚启动
+  GPIO_ON();//引脚启动，所有的
 	
 	
 	printf("\r\nDO200-90V1.1.1\r\n");
